@@ -46,7 +46,7 @@ body, html {
 <body>
 
 <div class="w3-top">
-	<div class="w3-row w3-padding w3-black">
+	<div class="w3-row w3-black">
 		<div class="w3-col s4">
 			<a href="#" class="w3-button w3-block w3-black">HOME</a>
 		</div>
@@ -61,7 +61,7 @@ body, html {
 
 <header class="bgimg w3-display-container" id="home">
 	<div class="w3-display-middle w3-center">
-		<span style="font-size:64pt;background:#fffa"><span class="emublue">emu</span><span class="emuyellow">.recipes</span></span>
+		<span id="headertext" style="font-size:64pt;background:#fffa"><span class="emublue">emu</span><span class="emuyellow">.recipes</span></span>
 	</div>
 </header>
 
@@ -182,6 +182,7 @@ function openMenu(evt, menuName) {
 	evt.currentTarget.firstElementChild.className += " w3-dark-grey";
 }
 document.getElementById("first_recipe").click();
+document.getElementById("headertext").style.fontSize = 16 / window.devicePixelRatio + "pt"
 </script>
 
 </body>
