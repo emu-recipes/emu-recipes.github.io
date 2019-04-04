@@ -37,6 +37,10 @@ body, html {
 .emuyellow {
 	color: #f3a71e;
 }
+
+.pointer {
+	cursor: pointer;
+}
 </style>
 <body>
 
@@ -77,18 +81,18 @@ body, html {
 		<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RECIPES</span></h5>
 
 		<div class="w3-row w3-center w3-card w3-padding">
-			<a href="javascript:void(0)" onclick="openMenu(event, 'roast');" id="first_recipe">
+			<span class="pointer" onclick="openMenu(event, 'roast');" id="first_recipe">
 				<div class="w3-col s6 tablink emuyellow"><b>Roasted Emu Roast</b></div>
-			</a>
-			<a href="javascript:void(0)" onclick="openMenu(event, 'orient');">
+			</span>
+			<span class="pointer" onclick="openMenu(event, 'orient');">
 				<div class="w3-col s6 tablink emublue"><b>Emu Orient</b></div>
-			</a>
-			<a href="javascript:void(0)" onclick="openMenu(event, 'kebabs');">
+			</span>
+			<span class="pointer" onclick="openMenu(event, 'kebabs');">
 				<div class="w3-col s6 tablink emublue"><b>Emu Kebabs</b></div>
-			</a>
-			<a href="javascript:void(0)" onclick="openMenu(event, 'spicy');">
+			</span>
+			<span class="pointer" onclick="openMenu(event, 'spicy');">
 				<div class="w3-col s6 tablink emuyellow"><b>Spicy Roasted Emu</b></div>
-			</a>
+			</span>
 		</div>
 
 		<div id="roast" class="w3-container menu w3-padding-48 w3-card">
