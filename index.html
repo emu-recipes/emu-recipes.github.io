@@ -13,12 +13,24 @@ body, html {
 }
 
 .bgimg {
+	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-image: url("/emubbq.jpg");
-	min-height: 75%;
+	background-color: #fdf5e6;
+	min-height: 50%;
+	max-height: 100%;
 }
 
+/*.bgimg {
+	background-position: center;
+	background-size: cover;
+	background-image: url("./emubbq.jpg");
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+*/
 .menu {
 	display: none;
 }
@@ -52,7 +64,7 @@ body, html {
 
 <header class="bgimg w3-display-container" id="home">
 	<div class="w3-display-middle w3-center">
-		<span class="w3-text-white" style="font-size:90px;background:#fffa"><span class="emublue">&nbsp;emu</span><span class="emuyellow">.recipes&nbsp;</span></span>
+		<span style="font-size:64pt;background:#fffa"><span class="emublue">emu</span><span class="emuyellow">.recipes</span></span>
 	</div>
 </header>
 
@@ -63,7 +75,7 @@ body, html {
 		<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT EMU MEAT</span></h5>
 		<p><b>A RED MEAT <span class="emublue">LIKE</span> <span class="emuyellow">NO OTHER</span></b></p>
 		<p>Emu meat has long been considered <b>the "next red meat."</b> With its unnerving resemblance to beef, it can be used as a substitute in roasts, steaks, stir fries, and any number of other delicious preparations.</p>
-		<p>While emu meat looks and tastes a lot like beef, its fat content is a lot closer to that of chicken, making it a <b>healthier alternative</b>. In addition, emus only need about 80% of the time that beef cattle do grow from hatch to slaughter, so we can pretend that emu meat has a <b>lower environmental impact</b>.</p>
+		<p>While emu meat looks and tastes a lot like beef, its fat content is a lot closer to that of chicken, making it a <b>healthier alternative</b>. In addition, emus only need about 80% of the time that beef cattle do to grow from hatch to slaughter, so we can pretend that emu meat has a <b>lower environmental impact</b>.</p>
 	</div>
 </div>
 
@@ -147,14 +159,14 @@ body, html {
 <div class="w3-container" id="why" style="padding-bottom:32px;">
 	<div class="w3-content" style="max-width:700px">
 		<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHY??</span></h5>
-		<p>This website is brought to you by Bigthumbs, domain registration addict. See also <a href="https://theweathervane.org/">https://theweathervane.org/</a>.</p>
+		<p>This website is brought to you by Bigthumbs, domain registration addict. See also <a href="https://theweathervane.org/" target="_blank">https://theweathervane.org/</a>.</p>
 		<p>This website does not represent, officially or unofficially, the opinions of any staff of either Eastern Mennonite University or Eastern Michigan University, or the student newspapers thereof. Prepare these recipes at your own risk. We are not responsible to any injuries that result from following these instructions or from attempting to wrangle an emu.</p>
 	</div>
 </div>
 
 </div>
 
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<footer class="w3-center w3-light-grey w3-padding-16 w3-large">
 	<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
