@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>A Red Meat Like No Other</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="icon" href="/degenerate_logo.png" type="image/x-icon">
+<style>
+body, html {
+	height: 100%;
+	font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+	background-position: center;
+	background-size: cover;
+	background-image: url("/emubbq.jpg");
+	min-height: 75%;
+}
+
+.menu {
+	display: none;
+}
+
+.emublue {
+	color: #0056b8;
+}
+
+.emuyellow {
+	color: #f3a71e;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+	<div class="w3-row w3-padding w3-black">
+		<div class="w3-col s3">
+			<a href="#" class="w3-button w3-block w3-black">HOME</a>
+		</div>
+		<div class="w3-col s3">
+			<a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+		</div>
+		<div class="w3-col s3">
+			<a href="#recipes" class="w3-button w3-block w3-black">RECIPES</a>
+		</div>
+		<div class="w3-col s3">
+			<a href="#why" class="w3-button w3-block w3-black">WHY???</a>
+		</div>
+	</div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+<!-- 	<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+		<span class="w3-tag"></span>
+	</div> -->
+	<div class="w3-display-middle w3-center">
+		<span class="w3-text-white" style="font-size:90px;background:#fffa"><span class="emublue">&nbsp;emu</span><span class="emuyellow">.recipes&nbsp;</span></span>
+	</div>
+<!-- 	<div class="w3-display-bottomright w3-center w3-padding-large">
+		<span class="w3-text-white"></span>
+	</div> -->
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+	<div class="w3-content" style="max-width:700px">
+		<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT EMU MEAT</span></h5>
+		<p><b>A RED MEAT <span class="emublue">LIKE</span> <span class="emuyellow">NO OTHER</span></b></p>
+		<p>Emu meat has long been considered <b>the "next red meat."</b> With its unnerving resemblance to beef, it can be used as a substitute in roasts, steaks, stir fries, and any number of other delicious preparations.</p>
+		<p>While emu meat looks and tastes a lot like beef, its fat content is a lot closer to that of chicken, making it a <b>healthier alternative</b>. In addition, emus only need about 80% of the time that beef cattle do grow from hatch to slaughter, so we can pretend that emu meat has a <b>lower environmental impact</b>.</p>
+	</div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="recipes">
+	<div class="w3-content" style="max-width:700px">
+
+		<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">RECIPES</span></h5>
+
+		<div class="w3-row w3-center w3-card w3-padding">
+			<a href="javascript:void(0)" onclick="openMenu(event, 'roast');" id="first_recipe">
+				<div class="w3-col s6 tablink">Roasted Emu Roast</div>
+			</a>
+			<a href="javascript:void(0)" onclick="openMenu(event, 'orient');">
+				<div class="w3-col s6 tablink">Emu Orient</div>
+			</a>
+			<a href="javascript:void(0)" onclick="openMenu(event, 'kebabs');">
+				<div class="w3-col s6 tablink">Emu Kebabs</div>
+			</a>
+			<a href="javascript:void(0)" onclick="openMenu(event, 'spicy');">
+				<div class="w3-col s6 tablink">Spicy Roasted Emu</div>
+			</a>
+		</div>
+
+		<div id="roast" class="w3-container menu w3-padding-48 w3-card">
+			<ul>
+				<li>5 to 6 lb. emu roast</li>
+				<li>2 Tbsp. garlic</li>
+				<li>1 Tbsp. salt</li>
+				<li>1 Tbsp. pepper</li>
+				<li>2 Tbsp. thyme</li>
+				<li>2 Tbsp. rosemary</li>
+				<li>2 Tbsp. basil</li>
+				<li>2 Tbsp. parsley</li>
+				<li>¼ cup olive oil</li>
+				<li>2 cups red wine</li>
+			</ul>
+			<p>Mix dry spices together. Spread half of the spice mixture onto the roast and cover. Marinade for 4-6 hours in the refrigerator. Remove the roast and place into a roasting pan. Preheat oven to 350° F. Re-season roast with remaining spices. Add olive oil and wine. Insert meat thermometer in thickest part of roast and bake for 1½ to 2 hours or until thermometer reaches 160°. Baste every 20-30 minutes with pan juices. Serves 8-10.</p>
+		</div>
+
+		<div id="orient" class="w3-container menu w3-padding-48 w3-card">
+			<ul>
+				<li>2 1-lb.emu fan fillet steaks</li>
+				<li>2 Tbsp. soy sauce</li>
+				<li>2 tsp. lime juice, freshly squeezed</li>
+				<li>1 tsp. fresh ginger, grated</li>
+				<li>2 cups hot cooked rice</li>
+			</ul>
+			<p>Marinade emu steaks overnight in refrigerator in soy sauce, lime juice and ginger. Cut emu steaks in ½ inch strips; place on plate and cover. In microwave, cook on medium setting for about 6 minutes or until done. Place meat on rice to serve. Serves 3-4.</p>
+		</div>
+
+		<div id="kebabs" class="w3-container menu w3-padding-48 w3-card">
+			<ul>
+				<li>1 lb. emu top loin fillet</li>
+				<li>1 onion, chopped</li>
+				<li>1 inch fresh ginger root, grated</li>
+				<li>3 Tbsp. lemon juice</li>
+				<li>4 Tbsp. soy sauce</li>
+				<li>3 Tbsp. brown sugar</li>
+				<li>1 tsp. sesame oil</li>
+			</ul>
+			<p>Mix together marinade ingredients. Cut emu fillet into cubes. Marinade meat for 1 hour in refrigerator. Thread meat onto bamboo skewers (previously soaked in water for 10 minutes). Broil or grill over hot coals, brushing with marinade, until done. Serves 4.</p>
+		</div>
+
+		<div id="spicy" class="w3-container menu w3-padding-48 w3-card">
+			<ul>
+				<li>2 emu inside strip fillets</li>
+				<li>½ tsp. cardamom seeds</li>
+				<li>2 tsp. Juniper berries</li>
+				<li>1 Tbsp. cracked pepper</li>
+				<li>2 tsp. coriander seeds</li>
+				<li>2 cloves garlic</li>
+				<li>2 Tbsp. flavored vinegar (either balsamic or raspberry)</li>
+				<li>1 Tbsp. olive oil</li>
+			</ul>
+			<p>Crush spices and garlic together. Rub mixture liberally over fillets, coating thickly. Refrigerate for one or two hours. Heat olive oil in pan; when hot add fillets and sear on all sides. Transfer to baking dish and cook in a hot oven (450° F) for 8-12 minutes. Remove from baking dish and allow meat to set by standing in a warm place for 15-30 minutes. Slice diagonally, fan on serving plate and serve with Balsamic Jus Sauce.</p>
+		</div>
+		<p>All recipes (and names of recipes) are from <a href="http://www.uniquelyemu.com/emu-meat-4.htm" target="_blank">http://www.uniquelyemu.com/emu-meat-4.htm</a>.</p>
+	</div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="why" style="padding-bottom:32px;">
+	<div class="w3-content" style="max-width:700px">
+		<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHY??</span></h5>
+		<p>This website brought to you by Bigthumbs, domain registrar addict.</p>
+	</div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+	<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+	var i, x, tablinks;
+	x = document.getElementsByClassName("menu");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablink");
+	for (i = 0; i < x.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+	}
+	document.getElementById(menuName).style.display = "block";
+	evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("first_recipe").click();
+</script>
+
+</body>
+</html>
